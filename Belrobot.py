@@ -15,7 +15,7 @@ time.sleep(1)
 print(Fore.YELLOW+"\n Please subscribe to the channel to receive updates :")
 print(Fore.BLUE+"\n Rubika : @Belectron_bot")
 
-bot = Bot(input("Please Enter Your Auth :")
+bot = Bot(input("Please Enter Your Auth :"))
 target=input("Please Enter Your Guid (Group) :")
 
 print(Fore.BLUE+"\n The Robot Was Successfully Activated !")
