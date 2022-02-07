@@ -18,7 +18,7 @@ print(Fore.BLUE+"\n Rubika : @Belectron_bot")
 bot = Bot(input("Please Enter Your Auth :")
 target=input("Please Enter Your Guid (Group) :")
 
-print("The Robot Was Successfully Activated !")
+print(Fore.BLUE+"\n The Robot Was Successfully Activated !")
 
 def hasAds(msg):
 	links = list(map(lambda ID: ID.strip()[1:],findall("@[\w|_|\d]+", msg))) + list(map(lambda link:link.split("/")[-1],findall("rubika\.ir/\w+",msg)))
