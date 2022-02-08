@@ -11,11 +11,11 @@
 
 >> git clone https://github.com/BELECTRON13/belectronbot.git
 
+>> cd belectronbot
+
 >> python -m pip install colorama
 
 >> pip install -r requirments.txt
-
->> cd belectronbot
 
 >> python Belrobot.py
 
