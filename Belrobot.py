@@ -34,6 +34,9 @@ time.sleep(0.5)
 print ("##########")
 print ("")
 
+print(Fore.GREEN+ "\n version 2.0.0")
+print("")
+
 print(Fore.YELLOW+"\n Please subscribe to the channel to receive updates :")
 print("")
 
