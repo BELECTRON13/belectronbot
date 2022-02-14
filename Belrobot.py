@@ -3,17 +3,46 @@ from re import findall
 from rubika import Bot
 import time
 from colorama import Fore,init
+from pyfiglet import Figlet
 
 #created By Mamad BELECTRON
 
 print(Fore.GREEN+ "\n L o a d i n g . . . ")
 time.sleep(2)
+print("")
 
-print(Fore.RED+ "\n Welcome, Created By Mamad BELECTRON")
-time.sleep(1)
+print ("__________")
+time.sleep(0.7)
+print ("#_________")
+time.sleep(0.6)
+print ("##________")
+time.sleep(0.5)
+print ("###_______")
+time.sleep(0.4)
+print ("####______")
+time.sleep(0.3)
+print ("#####_____")
+time.sleep(0.2)
+print ("######____")
+time.sleep(0.1)
+print ("#######___")
+time.sleep(0.5)
+print ("########__")
+time.sleep(0.1)
+print ("#########_")
+time.sleep(0.5)
+print ("##########")
+print ("")
 
 print(Fore.YELLOW+"\n Please subscribe to the channel to receive updates :")
-print(Fore.BLUE+"\n Rubika : @Belectron_bot")
+print("")
+
+print(Fore.BLUE+"\n Rubika --> @Belectron_bot")
+print("")
+
+Sa=Figlet(font="slant")
+print(Sa.renderText("BELECTRON"))
+print("")
 
 bot = Bot(input("Please Enter Your Auth :"))
 target=input("Please Enter Your Guid (Group) :")
