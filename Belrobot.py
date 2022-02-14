@@ -144,9 +144,6 @@ while True:
 					elif msg.get("text").startswith("کیر"):
 						bot.sendMessage(target, "فحاشی نکن وگرنه همین الان سیکتو از گپ میزنم", message_id=msg["message_id"])
 					
-					elif msg.get("text").startswith("کون"):
-						bot.sendMessage(target, "کونم تو دهنت", message_id=msg["message_id"])
-					
 					elif msg.get("text").startswith("قرم"):
 						bot.sendMessage(target, "بتخمم که قهری", message_id=msg["message_id"])
 						
