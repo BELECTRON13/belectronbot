@@ -54,7 +54,7 @@ Sa=Figlet(font="slant")
 print(Sa.renderText("BELECTRON"))
 print("")
 
-bot = Bot(input("Please Enter Your Auth :")
+bot = Bot(input("Please Enter Your Auth :"))
 target=input("Please Enter Your Guid (Group) :")
 
 print(Fore.GREEN+ "\n The Robot Was Successfully Activated !")
