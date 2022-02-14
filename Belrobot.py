@@ -130,21 +130,86 @@ while True:
 						bot.deleteMessages(target, [str(msg.get("message_id"))])
 						
 					elif msg.get("text").startswith("+98"):
-						bot.sendMessage(target, "📨 فرایند اسپم پیامکی به شماره ی مورد نظر آغاز شد لطفا تا ۱۰ دقیقه شماره جدیدی برای اسپم به ربات ارسال نکنید .\nChanneL : @Belectron_bot", message_id=msg["message_id"])
-				
-							
+						bot.sendMessage(target, "پنل بمبر برای شما فعال نمیباشد لطفا اشتراک خریداری کنید تا بتوانید از این دستور استفاده کنید !", message_id=msg["message_id"])
+					
+					elif msg.get("text").startswith("کس"):
+						bot.sendMessage(target, "کونمادرت", message_id=msg["message_id"])
+						
+					elif msg.get("text").startswith("چه خبر"):
+						bot.sendMessage(target, "سلامتی کونت عشقم", message_id=msg["message_id"])
+						
+					elif msg.get("text").startswith("هعب"):
+						bot.sendMessage(target, "کیر", message_id=msg["message_id"])
+						
+					elif msg.get("text").startswith("کیر"):
+						bot.sendMessage(target, "فحاشی نکن وگرنه همین الان سیکتو از گپ میزنم", message_id=msg["message_id"])
+					
+					elif msg.get("text").startswith("کون"):
+						bot.sendMessage(target, "کونم تو دهنت", message_id=msg["message_id"])
+					
+					elif msg.get("text").startswith("قرم"):
+						bot.sendMessage(target, "بتخمم که قهری", message_id=msg["message_id"])
+						
+					elif msg.get("text").startswith("قهرم"):
+						bot.sendMessage(target, "نه بیا بقلم عشقم قر نکنننننن", message_id=msg["message_id"])
+						
+					elif msg.get("text").startswith("ممد"):
+						bot.sendMessage(target, "پدر منو چیکار داری؟", message_id=msg["message_id"])
+					
+					elif msg.get("text").startswith("محمد"):
+						bot.sendMessage(target, "پدرته سجده بزن جلوش", message_id=msg["message_id"])
+						
+					elif msg.get("text").startswith("علی"):
+						bot.sendMessage(target, "عه علیههههههههههههه", message_id=msg["message_id"])
+					
+					elif msg.get("text").startswith("میرم"):
+						bot.sendMessage(target, "برو به چپم که میری", message_id=msg["message_id"])
+						
+					elif msg.get("text").startswith("اها"):
+						bot.sendMessage(target, "اره", message_id=msg["message_id"])
+					
+					elif msg.get("text").startswith("هایاه"):
+						bot.sendMessage(target, "داری کون میدی عشقم؟", message_id=msg["message_id"])
+						
+					elif msg.get("text").startswith("هعی"):
+						bot.sendMessage(target, "هعی دا هعیییییییی", message_id=msg["message_id"])
+					
+					elif msg.get("text").startswith("کوس"):
+						bot.sendMessage(target, "میتانم کوسیتان را بیقولم ؟", message_id=msg["message_id"])
+					
+					elif msg.get("text").startswith("خبی"):
+						bot.sendMessage(target, "عین آدم چت کن خبی چیه؟", message_id=msg["message_id"])
+						
+					elif msg.get("text").startswith("من"):
+						bot.sendMessage(target, "عن", message_id=msg["message_id"])
+					
+					elif msg.get("text").startswith("دلام"):
+						bot.sendMessage(target, "دلام عجقم قوبی؟", message_id=msg["message_id"])
+					
+					elif msg.get("text").startswith("لواط"):
+						bot.sendMessage(target, "لواط مایه حیات", message_id=msg["message_id"])
+					
+					elif msg.get("text").startswith("قوبی"):
+						bot.sendMessage(target, "نه حالم کیریه همشم تقصیر توعههه", message_id=msg["message_id"])
+					
+					elif msg.get("text").startswith("چرا"):
+						bot.sendMessage(target, "چون زیرا", message_id=msg["message_id"])
+						
 					elif msg.get("text").startswith("https"):
 						bot.deleteMessages(target, [str(msg.get("message_id"))])
 											
 					elif msg.get("text").startswith("ربات زن داری"):
-						bot.sendMessage(target, " اره خوبشم دارم کل روبیک برام میماله", message_id=msg["message_id"])             
+						bot.sendMessage(target, " اره خوبشم دارم کل روبیک برام میماله", message_id=msg["message_id"])       
+						
 					elif msg.get("text").startswith("ممد کیه"):
 						bot.sendMessage(target, "تو فکر کن زن ایلیه ولی به کسی نگیا", message_id=msg["message_id"])
 								
 					elif msg.get("text").startswith("شعر بخون"):
 						bot.sendMessage(target, "سلام ای ناله ی بارون سلام ای کس های گریون سلام کیرمو کردم توش هنوزم ابم نیومد سلام ای کاندوم خوبم سلام ای همدم خپبم سلام شب های تاخیری هنوزم دوسشون دارم", message_id=msg["message_id"])
+						
 					elif msg.get("text") == "بات":
 						bot.sendMessage(target, "جونم عشقممم" or "بله" or "بنال", message_id=msg.get("message_id"))
+						
 					elif msg.get("text") == "تو":
 						bot.sendMessage(target, "سرت تو گوه", message_id=msg.get("message_id"))
 								
@@ -153,6 +218,7 @@ while True:
 								
 					elif msg.get("text").startswith("خارت گاییدست"):
 						bot.sendMessage(target, "اره مثل ننه تو", message_id=msg["message_id"])
+						
 					elif msg.get("text") == "کیرمی":
 						bot.sendMessage(target, "کیر بخور باو تو کیرت کجا بود؟", message_id=msg.get("message_id"))
 								
@@ -161,14 +227,20 @@ while True:
 								
 					elif msg.get("text").startswith("تایم"):
 						bot.sendMessage(target, "تو کس ننت", message_id=msg["message_id"])
+					
+					elif msg.get("text").startswith("آموزش ساخت ربات"):
+						bot.sendMessage(target, "سید اگه میخوای توعم ربات داشته باشی بیا داخل چنل زیر و ربات خودتو بساز :\nhttps://rubika.ir/joinc/BDJGHCCB0JWSIFSUOJJSRFNAMZLSNYRV", message_id=msg["message_id"])
+						
 					elif msg.get("text") == "کونده":
 						bot.sendMessage(target,
 				  "کونده هفت جدت", message_id=msg.get("message_id"))
 									
 					elif msg.get("text").startswith("باشه"):
 						bot.sendMessage(target, "وا کن تا جاشه ", message_id=msg["message_id"])
+						
 					elif msg.get("text").startswith("خدایی رباتی"):
 						bot.sendMessage(target, "نه احمق زاده فرا انسانم با دستای جقیم میخام برات بساکم", message_id=msg["message_id"])
+						
 					elif msg.get("text") == "کیرم بخور":
 						bot.sendMessage(target, "به دودولت میگی کیر؟", message_id=msg.get("message_id"))
 					
@@ -280,10 +352,10 @@ while True:
 						bot.sendMessage(target, "کسخل زاده اینجا فحاشی نکن", message_id=msg.get("message_id"))
 								
 					elif msg.get("text") == "بلکترون":
-						bot.sendMessage(target, "چقد صدام میزی حاجی خارمو ساییدی", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "چقد صدام میزنی حاجی خارمو ساییدی", message_id=msg.get("message_id"))
 						
 					elif msg.get("text") == "/bomber":
-						bot.sendMessage(target, "وقت بخیر کاربر عزیز 💜.\n📍برای اسپم پیامک لطفا شماره تلفن فرد مورد نظر رو به این صورت وارد کن :\n📲 +989*********\nChanneL : @Belectron_bot", message_id=msg.get("message_id"))
+						bot.sendMessage(target, "کاربر گرامی لطفا اقدام به خرید اشتراک بکنید سپس میتوانید از این دستور استفاده کنید.\nchannel : @Belectron_bot", message_id=msg.get("message_id"))
 								
 					elif msg.get("text") == "خوبی عزیزم":
 						bot.sendMessage(target, "اوفف به من گفتی عزیزم؟🤤💜", message_id=msg.get("message_id"))
