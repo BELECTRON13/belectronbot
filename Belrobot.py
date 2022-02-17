@@ -249,7 +249,310 @@ while True:
 					
 					elif msg.get("text") == "کس":
 						bot.sendMessage(target, "ای جان کس شق کردم سید", message_id=msg.get("message_id"))
-											
+					
+					elif msg.get("text") == "/game":
+						bot.sendMessage(target, "سلام سید / سادات \nاگه میخوای بازیو شروع کنی از بین اعداد 1 تا 100 یکیو بفرس و جواب سوال رو بده \n@Belectron_bot", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "1":
+						bot.sendMessage(target, "اسم رلتو بگو", message_id=msg.get("message_id"))
+					
+					elif msg.get("text") == "2":
+						bot.sendMessage(target, "میوه مورد علاقت؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "3":
+						bot.sendMessage(target, "برو پی یه نفر فش بده", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "4":
+						bot.sendMessage(target, "سفیدی یا برنز یا سبزه یا سیاه؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "5":
+						bot.sendMessage(target, "اسم مامانت؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "6":
+						bot.sendMessage(target, "کون یا کس یا کیر؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "7":
+						bot.sendMessage(target, "کونت پشمالوعه؟", message_id=msg.get("message_id"))
+					
+					elif msg.get("text") == "8":
+						bot.sendMessage(target, "ای خرشانس ، شانس اوردی اندفه سوال نمیپرسم ازت .\nنفر بعدی عدد بفرست برام", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "9":
+						bot.sendMessage(target, "روزی چند بار بهش فک میکنی ؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "10":
+						bot.sendMessage(target, "تیکه کلامت؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "11":
+						bot.sendMessage(target, "حاضری در برابر صد میلیون پول شب با همجنست بخابی؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "12":
+						bot.sendMessage(target, "تا حالا خاستگار داشتی یا رفتی؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "13":
+						bot.sendMessage(target, "رقاص خوبی هستی تو عروسیا؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "14":
+						bot.sendMessage(target, "اخرین باری که فیلم سوپر دیدی؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "15":
+						bot.sendMessage(target, "قد و وزنت؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "16":
+						bot.sendMessage(target, "اسم مامانت؟", message_id=msg.get("message_id"))
+					
+					elif msg.get("text") == "17":
+						bot.sendMessage(target, "ویس بده آروق بزن", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "18":
+						bot.sendMessage(target, "معدل پارسالت؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "19":
+						bot.sendMessage(target, "ویس بده و بگو هایاهههههه", message_id=msg.get("message_id"))
+					
+					elif msg.get("text") == "20":
+						bot.sendMessage(target, "خوشگلترین دختر گپ؟ 😂", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "21":
+						bot.sendMessage(target, "چشم بسته یه چیزی تایپ کن بفرس ", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "22":
+						bot.sendMessage(target, "اول اسم کراشت/رلت چیه؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "23":
+						bot.sendMessage(target, "یکی از پیامات با کراشت/رلت باز ارسال کن", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "24":
+						bot.sendMessage(target, "فامیلیت؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "25":
+						bot.sendMessage(target, "آهنگ مورد علاقت", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "26":
+						bot.sendMessage(target, "اگه یه جنس مخالف که نسبتی باهات نداشته باشه بت بگه بیا بیرون باهاش میری؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "27":
+						bot.sendMessage(target, "خواهر برادر داری؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "28":
+						bot.sendMessage(target, "28 تو کونت😐", message_id=msg.get("message_id"))
+					
+					elif msg.get("text") == "29":
+						bot.sendMessage(target, "دوس داری با کی ازدواج کنی؟", message_id=msg.get("message_id"))
+					
+					elif msg.get("text") == "30":
+						bot.sendMessage(target, "برو پی یه نفر فش بده", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "31":
+						bot.sendMessage(target, "تا حالا دوس دختر یا دوس پسرت رو از ته دل دوست داشتی و ولش کرده باشی", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "32":
+						bot.sendMessage(target, "چند بار رل زدی؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "33":
+						bot.sendMessage(target, "لخت جنس مخالفتو دیدی تا حالا ؟کی بوده ؟توضیح بده", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "34":
+						bot.sendMessage(target, "تا حالا عاشق شدی؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "35":
+						bot.sendMessage(target, "رو کی کراشی تو گپ؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "36":
+						bot.sendMessage(target, "دوس داری بری کجا؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "37":
+						bot.sendMessage(target, "معدل پارسالت؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "38":
+						bot.sendMessage(target, "مادرتو بیشتر دوس داری یا پدرتو؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "39":
+						bot.sendMessage(target, "احساسات نسبت به خانوادت؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "40":
+						bot.sendMessage(target, "ویس بده صدا یکی از این حیون ها رو در بیار(خر، گاو، سگ،گوسفند)", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "41":
+						bot.sendMessage(target, "تا حالا دخانیات مصرف کردی؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "42":
+						bot.sendMessage(target, "چقدر حقوق میگیری ماهیانه؟ اگر حقوق نمیگیری، چقدر خرجته واس ی ماه؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "43":
+						bot.sendMessage(target, "دوس داری دهن کیو بگایی", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "44":
+						bot.sendMessage(target, "اگه نامرئی بشی چیکار میکنی", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "45":
+						bot.sendMessage(target, "ت دسشویی ب چی فک میکنی", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "46":
+						bot.sendMessage(target, "از نتایج گوگل اسکرین شات بده", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "47":
+						bot.sendMessage(target, "اگ بچه دار شی اسمشو چی میزاری", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "48":
+						bot.sendMessage(target, "تا حالا پیش کسی گوزیدی سوتی بدی😂 یا کسی پیشت گوزیده؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "49":
+						bot.sendMessage(target, "آخرین باری که خودتو خیس کردی کی بوده؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "50":
+						bot.sendMessage(target, "اصلی‌ترین چیزی که توی جنس مقابل برای تو جذابه چیه", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "51":
+						bot.sendMessage(target, "از یکی تو گپ درخواست ازدواج کن", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "52":
+						bot.sendMessage(target, "تا حالا ت حموم دسشویی کردی", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "53":
+						bot.sendMessage(target, "دوس داری کی از گپ ریم شه؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "54":
+						bot.sendMessage(target, "رنگ چشات؟رنگ موهات؟رنگ پوستت؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "55":
+						bot.sendMessage(target, "پشمالو دوست داری یا صافو صیغعلی؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "56":
+						bot.sendMessage(target, "کسی تا به حال تورو لخت دیده", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "57":
+						bot.sendMessage(target, "میخوری یا میبــری؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "58":
+						bot.sendMessage(target, "کدومش بدتره؟(تو دسشویی یهو اب داغ شه _ تو حموم یهو اب سرد شه)", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "59":
+						bot.sendMessage(target, "از گالری شات بده", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "60":
+						bot.sendMessage(target, "تاا به حال شده (پسری_دختری) که دوستش داری بفهمه، و بهت جواب منفی بده؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "61":
+						bot.sendMessage(target, "ی سوتی ک توی کلاس دادی چیه", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "62":
+						bot.sendMessage(target, "دوستاتو انگولک کردی یا اونا تورو؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "63":
+						bot.sendMessage(target, "تا حالا لباسای مامان یا باباتو پوشیدی؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "64":
+						bot.sendMessage(target, "اگه عاشق رل دوستت باشی ب دوستت ی دستی میزنی؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "65":
+						bot.sendMessage(target, "کیو انتخاب میکنی؟(اونی که دوست داره یا اونی که دوسش داری)", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "66":
+						bot.sendMessage(target, "اخرین باری ک حشری شدی کی بوده و چطور؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "67":
+						bot.sendMessage(target, "😂😋کیرم رو چقدر می مکی", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "68":
+						bot.sendMessage(target, "روی ی صندلی کیره روی ی صندلی کیک رو کدوم میشینی اون یکیو میخوری؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "69":
+						bot.sendMessage(target, "تاحالا به خودکشی فکر کردی؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "70":
+						bot.sendMessage(target, " تو فامیل از کی متنفری", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "71":
+						bot.sendMessage(target, "اگه از خواب بیدار شی و ببینی جنسیتت عوض شده چیکار میکنی", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "72":
+						bot.sendMessage(target, "شب با لباس راحتی میخابی یا لخت؟", message_id=msg.get("message_id"))	
+					
+					elif msg.get("text") == "73":
+						bot.sendMessage(target, "سکس خشن یا اروم؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "74":
+						bot.sendMessage(target, "زن یا مرد رویاهات چه شکلیه؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "75":
+						bot.sendMessage(target, "با تف جق میزنی یا با کرم؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "76":
+						bot.sendMessage(target, "اگه۱۰میلیارد پول داشته باشی چیکار میکنی؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "77":
+						bot.sendMessage(target, "کبود کردن لب یا گردن؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "78":
+						bot.sendMessage(target, "اسم دوست صمیمیت چیه؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "79":
+						bot.sendMessage(target, "عشق یا پول؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "80":
+						bot.sendMessage(target, "برو پیوی مامانت پیام بده بهش بگو مامان من رل زدم", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "81":
+						bot.sendMessage(target, "ویس بگیر بگو من خرم", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "82":
+						bot.sendMessage(target, "حاضری کیره عشقتو بخوری/کصشو لیس بزنی؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "83":
+						bot.sendMessage(target, "بدترین خاطره زندگیت؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "84":
+						bot.sendMessage(target, "حاضری بخاطر پول موهاتو بزنی؟", message_id=msg.get("message_id"))
+					
+					elif msg.get("text") == "85":
+						bot.sendMessage(target, "لز یا گی داشتی", message_id=msg.get("message_id"))
+					
+					elif msg.get("text") == "86":
+						bot.sendMessage(target, "کراشت تو گپ؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "87":
+						bot.sendMessage(target, "چخبر؟😐😂", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "88":
+						bot.sendMessage(target, "برو به رلت بگو کات اسکرین بفرس، البته اگه رل داری!", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "89":
+						bot.sendMessage(target, "رنگ شرتت؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "90":
+						bot.sendMessage(target, "شمارتو بگو؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "91":
+						bot.sendMessage(target, "کسیو از لب بوسیدی؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "92":
+						bot.sendMessage(target, "زن یا مرد رویاهات چه شکلیه؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "93":
+						bot.sendMessage(target, "سکسی ترین رویایه زندگیت؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "94":
+						bot.sendMessage(target, "لباس زیر چه رنگ حشریت میکنه؟", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "95":
+						bot.sendMessage(target, "غذا های مامانتو دوس داری یا فست فود", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "96":
+						bot.sendMessage(target, " اسم سه نفر تو مجازی ک دوسشون داری", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "97":
+						bot.sendMessage(target, "تاریخ تولدت", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "98":
+						bot.sendMessage(target, " اگ بچه دار شی اسمشو چی میزاری", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "99":
+						bot.sendMessage(target, "تو جذابتری یا بهترین دوست", message_id=msg.get("message_id"))
+						
+					elif msg.get("text") == "100":
+						bot.sendMessage(target, "اخرین باری ک حشری شدی کی بوده و چطور؟", message_id=msg.get("message_id"))
+						
 					elif msg.get("text") == "🙁":
 						bot.sendMessage(target, "خارکسه بغض نکن بیا لواط کنیم حالت خوب میشه", message_id=msg.get("message_id"))
 							
