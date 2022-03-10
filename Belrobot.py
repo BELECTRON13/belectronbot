@@ -64,7 +64,7 @@ def hasAds(msg):
 					return True
 			except KeyError: return False
 			
-answered = [bot.getGroupAdmins]
+answered = [Bot.getGroupAdmins]
 retries = {}
 sleeped = False
 delmess = ["دولی","کصکش","کون","کص","کیر" ,"خر","کستی","دول","گو","کس","کسکش","کوبص","کون","کص","کصخل","ننه جنده","کونی","کیری","کیرم"]
