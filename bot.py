@@ -12,10 +12,53 @@ import time
 import random
 import urllib
 import io
+from pyfiglet import Figlet
+from colorama import Fore,init
 
-bot = Bot("gjctujjmxjmklofngiknnephjtznypkk")
-target = "g0B8WNw04ada8835135a5385a7d11373"
-# created By HiBye & ShayanHeidari(Snipe4Kill)(TG GAMES)(libs for Bahman Ahmadi)
+print(Fore.GREEN+ "\n L o a d i n g . . . ")
+time.sleep(2)
+print("")
+
+print ("__________")
+time.sleep(0.7)
+print ("#_________")
+time.sleep(0.6)
+print ("##________")
+time.sleep(0.5)
+print ("###_______")
+time.sleep(0.4)
+print ("####______")
+time.sleep(0.3)
+print ("#####_____")
+time.sleep(0.2)
+print ("######____")
+time.sleep(0.1)
+print ("#######___")
+time.sleep(0.5)
+print ("########__")
+time.sleep(0.1)
+print ("#########_")
+time.sleep(0.5)
+print ("##########")
+print ("")
+
+print(Fore.GREEN+ "\n version 2.1")
+print("")
+
+print(Fore.YELLOW+"\n Please subscribe to the channel to receive updates :")
+print("")
+
+print(Fore.BLUE+"\n Rubika --> @Belectron_bot")
+print("")
+
+Sa=Figlet(font="slant")
+print(Sa.renderText("BELECTRON"))
+print("")
+
+bot = Bot(input("Please Enter Your Auth :"))
+target=input("Please Enter Your Guid (Group) :")
+
+# Created By Mamad BeLectron
 
 def hasAds(msg):
 	links = ["http://","https://",".ir",".com",".org",".net",".me"]
