@@ -255,7 +255,7 @@ while True:
 							except:
 								print("err dastorat")
 								
-						elif msg.get("text") == "بلکترون چی بلدی":
+						elif msg.get("text") == "/panel":
 							try:
 								rules = open("balad.txt","r",encoding='utf-8').read()
 								bot.sendMessage(target, str(rules), message_id=msg.get("message_id"))
