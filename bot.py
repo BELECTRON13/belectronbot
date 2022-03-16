@@ -376,11 +376,16 @@ while True:
 								bot.sendMessage(target,'چطوری خارکسه' ,message_id=msg.get("message_id"))
 							except:
 								print("err hello")
-								
-						
+
+						elif msg.get("text").startswith("ربات") or msg.get("text").startswith("بات") or msg.get("text").startswith("بلکترون") or msg.get("text").startswith("روبات") or msg.get("text").startswith("belectron") or msg.get("text").startswith("Belectron"):
+							try:
+								bot.sendMessage(target,'جانم' ,message_id=msg.get("message_id"))
+							except:
+								print("err robot")
+                                                
 						elif msg.get("text").startswith("نسخه") or msg.get("text").startswith("text"):
 							try:
-								bot.sendMessage(target, "3.0.0", message_id=msg.get("message_id"))
+					  			bot.sendMessage(target, "3.0.0", message_id=msg.get("message_id"))
 							except:
 								print("err luagh")
 								
