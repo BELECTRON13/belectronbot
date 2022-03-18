@@ -152,7 +152,7 @@ while True:
 							except:
 								bot.sendMessage(target, "❌ لطفا دستور را به درستی وارد کنید", message_id=msg.get("message_id"))
 
-						elif msg.get("text").startswith("اخراج") and msg.get("author_object_guid") in admins :
+						elif msg.get("text").startswith("/ban") and msg.get("author_object_guid") in admins :
 							try:
 								guid = bot.getInfoByUsername(msg.get("text").split(" ")[1][1:])["data"]["chat"]["abs_object"]["object_guid"]
 								if not guid in admins :
@@ -190,7 +190,7 @@ while True:
 							except:
 								bot.sendMessage(target, "❌ دستور اشتباه", message_id=msg.get("message_id"))
 								
-						elif msg.get("text") == "دستورات":
+						elif msg.get("text") == "/panel":
 							try:
 								rules = open("help.txt","r",encoding='utf-8').read()
 								bot.sendMessage(target, str(rules), message_id=msg.get("message_id"))
@@ -394,7 +394,13 @@ while True:
 								bot.sendMessage(target, "جون تو فقط بخند🤤", message_id=msg.get("message_id"))
 							except:
 								print("err poker answer")
-								
+
+						elif msg.get("text") == "/bomber":
+							try:
+								bot.sendMessage(target, "💣 Bomber PaneL \n📍 این دستور توسط سازنده ربات برای کاربرانی که از نسخه رایگان ربات استفاده میکنند متوقف شده است . برای خرید این دستور لطفا به پیوی زیر مراجعه کنید.\n #Admin --> @Seyed_xxx", message_id=msg.get("message_id"))
+							except:
+								print("err poker answer")
+		
 						elif msg.get("text") == "سنجاق" and msg.get("author_object_guid") in admins :
 							try:
 								bot.pin(target, msg["reply_to_message_id"])
@@ -549,7 +555,7 @@ while True:
 							
 						elif msg.get("text") == "حالت آرام" and msg.get("author_object_guid") in admins:
 							try:
-								number = 5
+								number = 10
 								bot.setGroupTimer(target,number)
 
 								bot.sendMessage(target, "✅ حالت آرام برای "+str(number)+"ثانیه فعال شد", message_id=msg.get("message_id"))
