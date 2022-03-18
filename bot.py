@@ -299,7 +299,7 @@ while True:
 							except:
 								bot.sendMessage(target, "متاسفانه نتیجه‌ای موجود نبود!", message_id=msg["message_id"])
 							
-						elif msg.get("text").startswith("زمان"):
+						elif msg.get("text").startswith("/time"):
 							try:
 								response = get("https://api.codebazan.ir/time-date/?td=all").text
 								bot.sendMessage(target, response,message_id=msg.get("message_id"))
@@ -312,20 +312,20 @@ while True:
 							except:
 								print("err time answer")
 						
-						elif msg.get("text") == "!date":
+						elif msg.get("text") == "/date":
 							try:
 								bot.sendMessage(target, f"Date: {time.localtime().tm_year} / {time.localtime().tm_mon} / {time.localtime().tm_mday}", message_id=msg.get("message_id"))
 							except:
 								print("err date")
 								
-						elif msg.get("text") == "پاک" and msg.get("author_object_guid") in admins :
+						elif msg.get("text") == "/del" and msg.get("author_object_guid") in admins :
 							try:
 								bot.deleteMessages(target, [msg.get("reply_to_message_id")])
 								bot.sendMessage(target, "پیام مورد نظر پاک شد...", message_id=msg.get("message_id"))
 							except:
 								print("err pak")
 								
-						elif msg.get("text").startswith("!cal") or msg.get("text").startswith("حساب"):
+						elif msg.get("text").startswith("/cal") or msg.get("text").startswith("حساب"):
 							msd = msg.get("text")
 							if plus == True:
 								try:
@@ -382,16 +382,16 @@ while True:
 								bot.sendMessage(target,'جانم' ,message_id=msg.get("message_id"))
 							except:
 								print("err robot")
-                                                
-						elif msg.get("text").startswith("نسخه") or msg.get("text").startswith("text"):
+
+						elif msg.get("text").startswith("خوبی") or msg.get("text").startswith("text"):
 							try:
-					  			bot.sendMessage(target, "3.0.0", message_id=msg.get("message_id"))
+					  			bot.sendMessage(target, "تا وقتی کونت مال من باشه من حالم خوبه خوبهههههه💜", message_id=msg.get("message_id"))
 							except:
 								print("err luagh")
 								
-						elif msg.get("text") == "bot":
+						elif msg.get("text") == "🤣🤣🤣":
 							try:
-								bot.sendMessage(target, "ربات بلکترون فعال میباشد !\nchannel: @Belectron_bot", message_id=msg.get("message_id"))
+								bot.sendMessage(target, "جون تو فقط بخند🤤", message_id=msg.get("message_id"))
 							except:
 								print("err poker answer")
 								
