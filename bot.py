@@ -48,7 +48,7 @@ print("")
 print(Fore.YELLOW+"\n Please subscribe to the channel to receive updates :")
 print("")
 
-print(Fore.BLUE+"\n Rubika --> @Belectron_bot")
+print(Fore.BLUE+"\")
 print("")
 
 Sa=Figlet(font="slant")
@@ -373,7 +373,7 @@ while True:
 								
 						elif msg.get("text").startswith("سلام") or msg.get("text").startswith("سلم") or msg.get("text").startswith("صلام") or msg.get("text").startswith("صلم") or msg.get("text").startswith("سیلام") or msg.get("text").startswith("صیلام"):
 							try:
-								bot.sendMessage(target,'چطوری خارکسه' ,message_id=msg.get("message_id"))
+								bot.sendMessage(target,'سلام' ,message_id=msg.get("message_id"))
 							except:
 								print("err hello")
 
@@ -384,8 +384,11 @@ while True:
 								print("err robot")
 
 						elif msg.get("text").startswith("خوبی") or msg.get("text").startswith("text"):
-							try:
-					  			bot.sendMessage(target, "تا وقتی کونت مال من باشه من حالم خوبه خوبهههههه💜", message_id=msg.get("message_id"))
+							try:  
+
+					  			bot.sendMessage(target, "خوبم تو خوبی
+
+                                                                                                                           ", message_id=msg.get("message_id"))
 							except:
 								print("err luagh")
 								
