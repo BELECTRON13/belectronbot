@@ -48,7 +48,7 @@ print("")
 print(Fore.YELLOW+"\n Please subscribe to the channel to receive updates :")
 print("")
 
-print(Fore.BLUE+"\n Rubika --> @Belectron_bot")
+print(Fore.BLUE+"\n Rubika --> @BoT_BeL")
 print("")
 
 Sa=Figlet(font="slant")
@@ -308,7 +308,7 @@ while True:
 								
 						elif msg.get("text") == "ساعت":
 							try:
-								bot.sendMessage(target, f"Time : {time.localtime().tm_hour} : {time.localtime().tm_min} : {time.localtime().tm_sec}", message_id=msg.get("message_id"))
+								bot.sendMessage(target, f"🕓 Time : {time.localtime().tm_hour} : {time.localtime().tm_min} : {time.localtime().tm_sec}", message_id=msg.get("message_id"))
 							except:
 								print("err time answer")
 						
@@ -593,7 +593,7 @@ while True:
 								number = 0
 								bot.setGroupTimer(target,number)
 
-								bot.sendMessage(target, "✅ حالت آرام غیرفعال شد", message_id=msg.get("message_id"))
+								bot.sendMessage(target, "⏳ Silent mode is disabled !", message_id=msg.get("message_id"))
 
 							except:
 								bot.sendMessage(target, "لطفا دستور رو صحیح وارد کنید!", message_id=msg.get("message_id"))
@@ -607,7 +607,7 @@ while True:
 									alert(guid,user)
 									
 								else :
-									bot.sendMessage(target, "❌ کاربر ادمین میباشد", message_id=msg.get("message_id"))
+									bot.sendMessage(target, "❌ The user is an admin !", message_id=msg.get("message_id"))
 									
 							except IndexError:
 								guid = bot.getMessagesInfo(target, [msg.get("reply_to_message_id")])[0]["author_object_guid"]
@@ -615,7 +615,7 @@ while True:
 								if not guid in admins:
 									alert(guid,user)
 								else:
-									bot.sendMessage(target, "❌ کاربر ادمین میباشد", message_id=msg.get("message_id"))
+									bot.sendMessage(target, "❌ The user is an admin !", message_id=msg.get("message_id"))
 							except:
 								bot.sendMessage(target, "❌ لطفا دستور را به درستی وارد کنید", message_id=msg.get("message_id"))
 
@@ -624,14 +624,14 @@ while True:
 						elif msg.get("text") == "/lock" and msg.get("author_object_guid") in admins :
 							try:
 								bot.setMembersAccess(target, ["AddMember"])
-								bot.sendMessage(target, "🔒 گروه قفل شد", message_id=msg.get("message_id"))
+								bot.sendMessage(target, "🔒 The group was successfully locked !", message_id=msg.get("message_id"))
 							except:
 								print("err lock GP")
 
 						elif msg.get("text") == "بازکردن گروه" or msg.get("text") == "/unlock" and msg.get("author_object_guid") in admins :
 							try:
 								bot.setMembersAccess(target, ["SendMessages","AddMember"])
-								bot.sendMessage(target, "🔓 گروه اکنون باز است", message_id=msg.get("message_id"))
+								bot.sendMessage(target, "🔓 The group was successfully unlocked !", message_id=msg.get("message_id"))
 							except:
 								print("err unlock GP")
 
@@ -639,7 +639,7 @@ while True:
 						if msg.get("text") == "!start" or msg.get("text") == "/start" and msg.get("author_object_guid") in admins :
 							try:
 								sleeped = False
-								bot.sendMessage(target, "ربا‌ت با موفقیت روشن شد!", message_id=msg.get("message_id"))
+								bot.sendMessage(target, "🔸️ The robot is online !", message_id=msg.get("message_id"))
 							except:
 								print("err on bot")
 								
@@ -657,7 +657,7 @@ while True:
 					elif data["type"]=="AddedGroupMembers":
 						try:
 							user = bot.getUserInfo(data['peer_objects'][0]['object_guid'])["data"]["user"]["first_name"]
-							bot.sendMessage(target, f"Hey {user} 🍒 !\nWelcome to {name} 🏖\n\n📑 To get information about robot commands, send a /panel command !\n🔗 ChanneL; rubika.ir/BeLectron_bot", message_id=msg["message_id"])
+							bot.sendMessage(target, f"Hey {user} 💜 !\nWelcome to {name} 🍒\n\n📑 To get information about robot commands, send a /panel command !\n🔗 ChanneL; rubika.ir/BeLectron_bot", message_id=msg["message_id"])
 							# bot.deleteMessages(target, [msg["message_id"]])
 						except:
 							print("err add member answer")
@@ -673,7 +673,7 @@ while True:
 					elif data["type"]=="JoinedGroupByLink":
 						try:
 							user = bot.getUserInfo(data['performer_object']['object_guid'])["data"]["user"]["first_name"]
-							bot.sendMessage(target, f"Hey {user} 🍒 !\nWelcome to {name} 🏖\n\n📑 To get information about robot commands, send a /panel command !\n🔗 ChanneL; rubika.ir/BeLectron_bot", message_id=msg["message_id"])
+							bot.sendMessage(target, f"Hey {user} 💜 !\nWelcome to {name} 🍒\n📑 To get information about robot commands, send a /panel command !\n🔗 ChanneL; rubika.ir/BoT_BeL", message_id=msg["message_id"])
 							# bot.deleteMessages(target, [msg["message_id"]])
 						except:
 							print("err Joined member Answer")
