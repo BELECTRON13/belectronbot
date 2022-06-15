@@ -4,5 +4,5 @@
 
 لیست بازی ها `/games` 🍒
 
-@Belectron_bot
+@BoT_BeL
 
