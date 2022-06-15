@@ -85,16 +85,16 @@ def alert(guid,user,link=False):
 	coun = int(alerts.count(guid))
 
 	haslink = ""
-	if link : haslink = "گذاشتن لینک در گروه ممنوع میباشد!\n\n"
+	if link : haslink = "‌"
 
 	if coun == 1:
-		bot.sendMessage(target, "💢 اخطار [ @"+user+" ] \n"+haslink+" شما (1/3) اخطار دریافت کرده اید .\n\nپس از دریافت 3 اخطار از گروه حذف خواهید شد !!!")
+		bot.sendMessage(target, "⛔️ 𝗪𝗮𝗿𝗻  [ @"+user+" ] \n"+haslink+" You have received [1/3] of the warning.")
 	elif coun == 2:
-		bot.sendMessage(target, "💢 اخطار [ @"+user+" ] \n"+haslink+" شما (2/3) اخطار دریافت کرده اید ⚠️.")
+		bot.sendMessage(target, "⛔️ 𝗪𝗮𝗿𝗻 [ @"+user+" ] \n"+haslink+" You have received [2/3] of the warning.")
 
 	elif coun == 3:
 		blacklist.append(guid)
-		bot.sendMessage(target, "🚫 کاربر [ @"+user+" ] \n (3/3) اخطار دریافت کرد ، بنابراین اکنون اخراج میشود .")
+		bot.sendMessage(target, "🚫 𝗨𝘀𝗲𝗿 [ @"+user+" ] \n Received [3/3] warnings will now be removed from the group !")
 		bot.banGroupMember(target, guid)
 
 
@@ -124,7 +124,7 @@ while True:
 						elif msg.get("text") == "!stop" or msg.get("text") == "/stop" and msg.get("author_object_guid") in admins :
 							try:
 								sleeped = True
-								bot.sendMessage(target, "✅ ربات اکنون خاموش است", message_id=msg.get("message_id"))
+								bot.sendMessage(target, "💤 The robot is offline\n🔹Send the /start command to turn on the robot.", message_id=msg.get("message_id"))
 							except:
 								print("err off bot")
 								
@@ -424,7 +424,7 @@ while True:
 							except:
 								bot.sendMessage(target, "دستور رو درست وارد کن دیگه", message_id=msg["message_id"])
 								
-						elif msg.get("text").startswith("!font"):
+						elif msg.get("text").startswith("/font"):
 							try:
 								response = get(f"https://api.codebazan.ir/font/?text={msg.get('text').split()[1]}").json()
 								bot.sendMessage(msg.get("author_object_guid"), "\n".join(list(response["result"].values())[:110])).text
